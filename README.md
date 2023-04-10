@@ -25,9 +25,9 @@ To provide an example, let's say that the data is located in the folder called "
  * "--hidden_size" takes on the size of the hidden layer; this argument is optional and if not used, the default is set to 0
  * "--nonlinear" takes on the type of the non-linearity function the user wishes to use; one can choose between "relu", "tanh", "none"; this argument is optional and if not used, the default is set to "none"
  
-To provide an example, let's say that the user wants to take the previously created "table.csv" file, set 5 as the size of the hidden layer, and have the non-linearity function set to "tahn". This can be run as followws:
+To provide an example, let's say that the user wants to take the previously created "table.csv" file, set 5 as the size of the hidden layer, and have the non-linearity function set to "tanh". This can be run as followws:
  
-```python3 a3_model.py table.csv --hidden_size 5 --nonlinear "tahn"```
+```python3 a3_model.py table.csv --hidden_size 5 --nonlinear "tanh"```
 
 # <b> Questions </b>
 
